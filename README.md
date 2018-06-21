@@ -2,9 +2,11 @@
 
 Unsupervised learning techniques applied to see if any similarities appears between customers, and how to best segment customers into distinct categories.
 
+
 ## Project Purpose
 
 In this project, we applied unsupervised learning techniques on product spending data collected for customers of a wholesale distributor to identify customer segments hidden in the data. We first investigated the data by selecting a small portion of it to sample and identify if there is a correlation between product categories. Next, we preprocessed the data by measuring each product category and then identifying outliers to remove them. We then applied PCA transform and enforce clustering algorithms to segment the transformed customer data. Finally, we matched the cluster segmentation meet with an extra labeling and conceived ways this information might assist the distributor in the future.
+
 
 ## Files
 
@@ -15,6 +17,7 @@ customer_segments.ipynb: The main file where our contribution for the project.
 customers.csv: The project dataset.
 
 visuals.py: This Python file includes helper functions to create the required visualizations.
+
 
 ## Execution
 
